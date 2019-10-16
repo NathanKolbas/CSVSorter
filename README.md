@@ -4,7 +4,11 @@ A simple CSV sorter that will sort a CSV file by last name, first name and then 
 
 ## Usage
 
-TODO: Write usage instructions here
+run `lib\RunCSVSorter.rb` in ruby to begin CSV file sorting. Tests are located in `spec\CSVSorter_spec.rb`.
+
+## Notes
+
+Some things can be tightened up and further improved. More test cases can and should be added, change from using a CSV file to using an array as we don’t want to bring reading a CSV file into our sorting test, and clean up and tighten our CSVSorter file.
 
 ## License
 
